@@ -1,0 +1,7 @@
+- ideal img ratios
+- all img are rescaled in the pages, so img looks stretched if not using ideal ratio
+
+shop page: 179x130
+product page: 330x330
+averts: 1000x150
+ad-block: 270x200

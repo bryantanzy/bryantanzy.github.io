@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../img/uwu.png" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Book</title>
+
+    <!-- Google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Slick -->
+    <link type="text/css" rel="stylesheet" href="../css/slick.css" />
+    <link type="text/css" rel="stylesheet" href="../css/slick-theme.css" />
+
+    <!-- nouislider -->
+    <link type="text/css" rel="stylesheet" href="../css/nouislider.min.css" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- TOP HEADER -->
+      <div id="top-header">
+        <div class="container">
+          <ul class="header-links pull-left">
+            <li>
+              <a href="#"><i class="fa fa-phone"></i> +65 9636 0727</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-envelope-o"></i> email@email.com</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-map-marker"></i> 1734 pain district</a
+              >
+            </li>
+          </ul>
+          <ul class="header-links pull-right">
+            <li>
+              <a href="#"><i class="fa fa-user-o"></i> My Account</a>
+            </li>
+            <li>
+              <a href="../leaderboards.html"><i class="fa fa-bar-chart"></i> Leaderboards</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /TOP HEADER -->
+
+      <!-- MAIN HEADER -->
+      <div id="header">
+        <!-- container -->
+        <div class="container">
+          <!-- row -->
+          <div class="row">
+            <!-- LOGO -->
+            <div class="col-md-3">
+              <div class="header-logo">
+                <a href="../index.html" class="logo">
+                  <img src="../img/logo.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <!-- /LOGO -->
+
+            <!-- SEARCH BAR -->
+            <div class="col-md-6">
+              <div class="header-search">
+                <form>
+                  <input class="input" placeholder="Search here" />
+                </form>
+              </div>
+            </div>
+            <!-- /SEARCH BAR -->
+
+            <!-- ACCOUNT -->
+            <div class="hd-btn">
+              <div class="header-ctn">
+                <!-- Wishlist -->
+                <div>
+                  <a href="#">
+                    <i class="colw fa fa-heart-o"></i>
+                    <span class="colw">Your Wishlist</span>
+                  </a>
+                </div>
+                <!-- /Wishlist -->
+
+                <!-- Cart -->
+                <div class="dropdown hd-btn">
+                  <a
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-expanded="true"
+                  >
+                    <i class="colw fa fa-shopping-cart"></i>
+                    <span class="colw">Your Cart</span>
+                  </a>
+                  <div class="cart-dropdown">
+                    <div class="cart-list">
+                      <div class="product-widget">
+                        <div class="product-img">
+                          <img src="../img/milk.png" alt="" />
+                        </div>
+                        <div class="product-body">
+                          <h3 class="product-name">
+                            <a href="#">milk</a>
+                          </h3>
+                          <h4 class="product-price">
+                            <span class="qty">1x</span>$5.00
+                          </h4>
+                        </div>
+                        <button class="delete">
+                          <i class="fa fa-close"></i>
+                        </button>
+                      </div>
+
+                      <div class="product-widget">
+                        <div class="product-img">
+                          <img src="../img/globe.webp" alt="" />
+                        </div>
+                        <div class="product-body">
+                          <h3 class="product-name">
+                            <a href="#">snow globe</a>
+                          </h3>
+                          <h4 class="product-price">
+                            <span class="qty">3x</span>$10.00
+                          </h4>
+                        </div>
+                        <button class="delete">
+                          <i class="fa fa-close"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="cart-summary">
+                      <small>3 Item(s) selected</small>
+                      <h5>SUBTOTAL: $2940.00</h5>
+                    </div>
+                    <div class="cart-btns">
+                      <a href="#">View Cart</a>
+                      <a href="#"
+                        >Checkout <i class="fa fa-arrow-circle-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Cart -->
+              </div>
+            </div>
+            <!-- /ACCOUNT -->
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!-- /MAIN HEADER -->
+    </header>
+    <!-- /HEADER -->
+
+    <!-- NAVIGATION -->
+    <nav id="navigation">
+      <!-- container -->
+      <div class="container">
+        <!-- responsive-nav -->
+        <div id="responsive-nav">
+          <!-- NAV -->
+          <ul class="main-nav nav navbar-nav">
+            <li><a href="../categories/deals.html">Deals</a></li>
+            <li><a href="../categories/dairy.html">Dairy</a></li>
+            <li><a href="../categories/clothing.html">Clothing</a></li>
+            <li><a href="../categories/decoration.html">Decoration</a></li>
+            <li><a href="../categories/gardening.html">Gardening</a></li>
+          </ul>
+          <!-- /NAV -->
+        </div>
+        <!-- /responsive-nav -->
+      </div>
+      <!-- /container -->
+    </nav>
+    <!-- /NAVIGATION -->
+
+    <!-- BREADCRUMB -->
+    <div id="breadcrumb" class="section">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="breadcrumb-header">Surrounded by idiots</h3>
+            <ul class="breadcrumb-tree">
+              <li class="active">Literature > non-fiction</li>
+            </ul>
+          </div>
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /BREADCRUMB -->
+
+    <!-- SECTION -->
+    <div class="section">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <!-- top bit -->
+          <div>
+            <div class="col-md-5 col-md-push-2">
+              <div id="product-main-img">
+                <div class="product-big-img">
+                  <img src="../img/book.webp" alt="" />
+                </div>
+
+                <div class="product-big-img">
+                  <img src="../img/book.webp" alt="" />
+                </div>
+
+                <div class="product-big-img">
+                  <img src="../img/book.webp" alt="" />
+                </div>
+
+                <div class="product-big-img">
+                  <img src="../img/book.webp" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- /Product main img -->
+
+            <!-- Product thumb imgs -->
+            <div class="col-md-2 col-md-pull-5">
+              <div id="product-imgs">
+                <div class="product-preview">
+                  <img src="../img/book.webp" alt="" />
+                </div>
+                <!-- these images have to be set to the same 
+					      as the ones in product main img -->
+                <div class="product-preview">
+                  <img src="../img/book.webp" alt="" />
+                </div>
+
+                <div class="product-preview">
+                  <img src="../img/book.webp" alt="" />
+                </div>
+
+                <div class="product-preview">
+                  <img src="../img/book.webp" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- /Product thumb imgs -->
+
+            <!-- Product details -->
+            <div class="col-md-5">
+              <div class="product-details">
+                <h2 class="product-name">Surrounded by idiots</h2>
+                <div class="product-stats">
+                  <div class="product-rating">
+                    4.5
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                  </div>
+                  <div>|</div>
+                  <div>3 Review(s)</div>
+                  <div>|</div>
+                  <div>27 Sold</div>
+                </div>
+
+                <div>
+                  <h3 class="product-price">
+                    $51.00 <inline class="pointstag">2 POINTS</inline>
+                  </h3>
+                  <span class="product-available">1 In Stock</span>
+                </div>
+                <div class="clearfloats">Shipping from:</div>
+                <div><i class="fa fa-map-marker"></i> Singapore</div>
+
+                <div class="product-btns">
+                  <button class="add-to-cart-btn colw">
+                    <i class="fa fa-shopping-cart"></i> Add to cart
+                  </button>
+                  <button class="wishlist-btn">
+                    <i class="fa fa-heart-o"></i> Add to wishlist
+                  </button>
+                </div>
+
+                <ul class="product-links clearfloats">
+                  <li>Share:</li>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /Product details -->
+          </div>
+        </div>
+        <!-- end of top bit -->
+
+        <!-- bottom bit -->
+        <div class="col-md-12">
+          <div id="product-tab">
+            <!-- product tab nav -->
+            <ul class="tab-nav">
+              <li class="active">
+                <a data-toggle="tab" href="#tab1">Description</a>
+              </li>
+              <li><a data-toggle="tab" href="#tab2">Details</a></li>
+              <li><a data-toggle="tab" href="#tab3">Reviews (3)</a></li>
+            </ul>
+            <!-- /product tab nav -->
+
+            <!-- product tab content -->
+            <div class="tab-content">
+              <!-- tab1  -->
+              <div id="tab1" class="tab-pane fade in active">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>
+                      You are not alone. After a disastrous meeting with a
+                      highly successful entrepreneur, who was genuinely
+                      convinced he was 'surrounded by idiots', communication
+                      expert and bestselling author, Thomas Erikson dedicated
+                      himself to understanding how people function and why we
+                      often struggle to connect with certain types of people.<br><br>
+                      Originally published in Swedish in 2014 as Omgiven Av
+                      Idioter, Erikson's Surrounded by Idiots is already an
+                      international phenomenon, selling over 1.5 million copies
+                      worldwide, of which over 750,000 copies have been sold in
+                      Sweden alone. It offers a simple, yet ground-breaking
+                      method for assessing the personalities of people we
+                      communicate with - in and out of the office - based on
+                      four personality types (Red, Blue, Green and Yellow), and
+                      provides insights into how we can adjust the way(s) we
+                      speak and share information. Erikson will help you
+                      understand yourself better, hone communication and social
+                      skills, handle conflict with confidence, improve dynamics
+                      with your boss and team, and get the best out of the
+                      people you deal with and manage. He also shares simple
+                      tricks on body language, improving written communication
+                      and advice on when to back away or when to push on, and
+                      when to speak up or indeed shut up. Packed with 'aha!' and
+                      'oh no!' moments, Surrounded by Idiots will help you
+                      understand and influence those around you, even people you
+                      currently think are beyond all comprehension. And with a
+                      bit of luck you can also be confident that the idiot out
+                      there isn't you!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- /tab1  -->
+
+              <!-- tab2  -->
+              <div id="tab2" class="tab-pane fade in">
+                <div class="row">
+                  <div class="col-md-12">
+                    <table class="desc-tbl">
+                      <tr>
+                        <th>Category</th>
+                        <td>Literature</td>
+                      </tr>
+                      <tr>
+                        <th>Country of Origin</th>
+                        <td>Swedish</td>
+                      </tr>
+                      <tr>
+                        <th>Stock</th>
+                        <td>1</td>
+                      </tr>
+                      <tr>
+                        <th>Ships from</th>
+                        <td>My house</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- /tab2  -->
+
+              <!-- tab3  -->
+              <div id="tab3" class="tab-pane fade in">
+                <div class="row">
+                  <!-- /Rating -->
+
+                  <!-- Reviews -->
+                  <div class="col-md-6">
+                    <div id="reviews">
+                      <ul class="reviews">
+                        <li>
+                          <div class="review-heading">
+                            <h5 class="name">John</h5>
+                            <p class="date">27 DEC 2018, 8:0 PM</p>
+                            <div class="review-rating">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o empty"></i>
+                            </div>
+                          </div>
+                          <div class="review-body">
+                            <p>amazing product<3</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="review-heading">
+                            <h5 class="name">John</h5>
+                            <p class="date">27 DEC 2018, 8:0 PM</p>
+                            <div class="review-rating">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o empty"></i>
+                            </div>
+                          </div>
+                          <div class="review-body">
+                            <p>changed my life</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="review-heading">
+                            <h5 class="name">John</h5>
+                            <p class="date">27 DEC 2018, 8:0 PM</p>
+                            <div class="review-rating">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o empty"></i>
+                            </div>
+                          </div>
+                          <div class="review-body">
+                            <p>:D</p>
+                          </div>
+                        </li>
+                      </ul>
+                      <button class="readmore colw">Load More</button>
+                    </div>
+                  </div>
+                  <!-- /Reviews -->
+
+                  <!-- Review Form -->
+                  <div class="col-md-3">
+                    <div id="review-form">
+                      <form class="review-form">
+                        <input
+                          class="input"
+                          type="text"
+                          placeholder="Your Name"
+                        />
+                        <input
+                          class="input"
+                          type="email"
+                          placeholder="Your Email"
+                        />
+                        <textarea
+                          class="input"
+                          placeholder="Your Review"
+                        ></textarea>
+                        <div class="input-rating">
+                          <span>Your Rating: </span>
+                          <div class="stars">
+                            <input
+                              id="star5"
+                              name="rating"
+                              value="5"
+                              type="radio"
+                            /><label for="star5"></label>
+                            <input
+                              id="star4"
+                              name="rating"
+                              value="4"
+                              type="radio"
+                            /><label for="star4"></label>
+                            <input
+                              id="star3"
+                              name="rating"
+                              value="3"
+                              type="radio"
+                            /><label for="star3"></label>
+                            <input
+                              id="star2"
+                              name="rating"
+                              value="2"
+                              type="radio"
+                            /><label for="star2"></label>
+                            <input
+                              id="star1"
+                              name="rating"
+                              value="1"
+                              type="radio"
+                            /><label for="star1"></label>
+                          </div>
+                        </div>
+                        <button class="primary-btn">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                  <!-- /Review Form -->
+                </div>
+              </div>
+              <!-- /tab3  -->
+            </div>
+            <!-- /product tab content  -->
+          </div>
+        </div>
+        <!-- end of bottom bit -->
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /SECTION -->
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <!-- top footer -->
+      <div class="section">
+        <!-- container -->
+        <div class="container">
+          <!-- row -->
+          <div class="row">
+            <div class="col-md-3 col-xs-6">
+              <div class="footer">
+                <h3 class="footer-title">About Us</h3>
+                <p>
+                  I don't know what im doing so they probably dont know
+                  either<br /><br />-sun tsu probably
+                </p>
+                <ul class="footer-links">
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-phone"></i>+65 9636 0727</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-envelope-o"></i>email@email.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+              <div class="footer">
+                <h3 class="footer-title">Categories</h3>
+                <ul class="footer-links">
+                  <li><a href="../categories/deals.html">Deals</a></li>
+                  <li><a href="../categories/dairy.html">Dairy</a></li>
+                  <li><a href="../categories/clothing.html">Clothing</a></li>
+                  <li>
+                    <a href="../categories/decoration.html">Decoration</a>
+                  </li>
+                  <li><a href="../categories/gardening.html">Gardening</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="clearfix visible-xs"></div>
+
+            <div class="col-md-3 col-xs-6">
+              <div class="footer">
+                <h3 class="footer-title">Information</h3>
+                <ul class="footer-links">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Orders and Returns</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+              <div class="footer">
+                <h3 class="footer-title">Service</h3>
+                <ul class="footer-links">
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">View Cart</a></li>
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#">Track My Order</a></li>
+                  <li><a href="#">Help</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /row -->
+        </div>
+        <!-- /container -->
+      </div>
+      <!-- /top footer -->
+
+      <!-- bottom footer -->
+      <div id="bottom-footer" class="section">
+        <div class="container">
+          <!-- row -->
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <ul class="footer-payments">
+                <li>
+                  <a href="#"><i class="fa fa-cc-visa"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-credit-card"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-cc-paypal"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-cc-mastercard"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-cc-discover"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-cc-amex"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /row -->
+        </div>
+        <!-- /container -->
+      </div>
+      <!-- /bottom footer -->
+    </footer>
+    <!-- /FOOTER -->
+
+    <!-- jQuery Plugins -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/nouislider.min.js"></script>
+    <script src="../js/jquery.zoom.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
